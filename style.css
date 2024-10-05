@@ -15,13 +15,15 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 20px 0;
 }
 
-.header, .hero, .footer {
+.background, .footer {
     background-color: #1f2937;
+    display: flex;
+    justify-content: center;
 }
 
 .logo {
@@ -48,9 +50,8 @@ button {
 
 .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    flex: 1;
     padding: 80px 0;
 }
 
@@ -152,7 +153,6 @@ button {
     background-color: #3882f6;
     padding: 40px 100px;
     border-radius: 10px;
-    width: 1400px;
     color: white;
 }
 
@@ -167,4 +167,8 @@ button {
     color: #e5e7eb;
     font-size: 18px;
     padding: 30px 0;
+}
+
+.header, .hero, .sign-up-container {
+    width: 1400px;
 }
