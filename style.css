@@ -69,6 +69,7 @@ button {
     padding: 6px 28px;
     border-radius: 10px;
     border-style: none;
+    font-weight: 900;
 }
 
 .main button {
@@ -136,4 +137,25 @@ button {
 .thor {
     margin-left: auto;
     font-weight: 900;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 40px 100px;
+    border-radius: 10px;
+    width: 1300px;
+    color: white;
+}
+
+.sign-up-container button {
+    border: 2px solid white;
 }
